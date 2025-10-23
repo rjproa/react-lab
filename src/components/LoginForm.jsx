@@ -25,10 +25,10 @@ const LoginForm = ({ handleLogin }) => {
 
       <form onSubmit={handleSubmit}>
         <div>
-          username <input value={username} onChange={Event => setUsername(Event.target.value)} />
+          username <input data-testid='username' value={username} onChange={Event => setUsername(Event.target.value)} />
         </div>
         <div>
-          password <input type="password" valur={password} onChange={Event => setPassword(Event.target.value)} />
+          password <input data-testid='password' type="password" value={password} onChange={Event => setPassword(Event.target.value)} />
         </div>
         <button type="submit">Login</button>
       </form>

@@ -85,7 +85,7 @@ const App = () => {
       <Notification message={errorMessage} />
 
 
-      <Togglabe buttonLabel="Login" >
+      <Togglabe buttonLabel="Log in" >
         <LoginForm handleLogin={handleLogin}></LoginForm>
       </Togglabe>
 
